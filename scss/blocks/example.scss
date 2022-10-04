@@ -1,0 +1,106 @@
+body {
+  overflow-x: hidden;
+}
+
+.h2-catalog {
+  text-align: center;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.form-select {
+  width: 300px;
+}
+
+.first-box {
+  & button {
+    width: 300px;
+    margin-bottom: 25px;
+  }
+  & a {
+    transform: translateY(-7px);
+  }
+}
+
+.border-box {
+  width: 300px;
+  height: 100px;
+  border: 1px solid rgb(204, 200, 200);
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.remove-films {
+  font-weight: 600;
+}
+
+.two-boxes {
+  display: flex;
+  gap: 50px;
+}
+
+.h3-search__results {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.alert {
+  width: 820px;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.number-year {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.calendar-card {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transform: translateY(-15px);
+}
+
+.star {
+  border: none;
+  background: none;
+}
+
+.star-box {
+  display: flex;
+  align-items: center;
+  transform: translateY(-30px);
+  margin-left: -8px;
+  & p {
+    margin-top: 20px;
+  }
+}
+
+.link-card {
+  display: flex;
+  transform: translateY(-15px);
+  gap: 15px;
+  align-items: center;
+  & a {
+    border: #6c90bb 1px solid;
+    color: #6c90bb;
+    background: none;
+    white-space: nowrap;
+  }
+}
+
+.card-box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar-pagination {
+  transform: translateX(300px);
+  margin-top: 50px;
+}
